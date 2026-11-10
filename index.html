@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Барбершоп «Борода и Ножницы» — мужские стрижки и бритьё в Москве</title>
+  <meta name="description" content="Мужские стрижки, моделирование бороды и королевское бритьё. Запись онлайн за 30 секунд в Telegram, −20% на первый визит. Демо-сайт для портфолио.">
+  <meta name="theme-color" content="#0e0e0d">
+
+  <!-- Open Graph: адрес сайта на GitHub Pages (при переезде на другой адрес — поменять og:url и og:image) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Борода и Ножницы">
+  <meta property="og:title" content="Барбершоп «Борода и Ножницы»">
+  <meta property="og:description" content="Мужские стрижки и бритьё. Запись онлайн за 30 секунд в Telegram.">
+  <meta property="og:url" content="https://vroang.github.io/boroda-nozhnicy/">
+  <meta property="og:image" content="https://vroang.github.io/boroda-nozhnicy/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Интерьер барбершопа «Борода и Ножницы» и эмблема">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preload" href="fonts/oswald-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="img/hero-mobile.webp" type="image/webp" media="(max-width: 767px)">
+  <link rel="preload" as="image" href="img/hero.webp" type="image/webp" media="(min-width: 768px)">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Барбершоп «Борода и Ножницы»",
+    "description": "Демо-сайт для портфолио. Барбершоп вымышленный.",
+    "telephone": "+7 900 123-45-67",
+    "address": {"@type": "PostalAddress", "streetAddress": "ул. Примерная, д. 12", "addressLocality": "Москва", "addressCountry": "RU"},
+    "openingHours": "Mo-Su 10:00-21:00",
+    "priceRange": "300–3900 ₽"
+  }
+  </script>
+</head>
+<body>
+
+<!-- Иконки -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.4 3.6 2.9 10.7c-1.2.5-1.2 1.2-.2 1.5l4.7 1.5 1.8 5.6c.2.6.1.9.8.9.5 0 .7-.2 1-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.8-1.4-1.5Zm-4 3.6-8.3 7.5-.3 3.4-1.4-4.5 9.3-5.9c.5-.3.9-.1.7.5Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M5 3.5h3.2l1.6 4.2-2 1.3a11 11 0 0 0 7.2 7.2l1.3-2 4.2 1.6V19a1.6 1.6 0 0 1-1.6 1.6A16.4 16.4 0 0 1 3.4 5.1 1.6 1.6 0 0 1 5 3.5Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-scissors" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="2.8"/><circle cx="6.5" cy="17.5" r="2.8"/><path d="M8.6 8.4 20 18M8.6 15.6 20 6M13.5 12h0"/></g></symbol>
+  <symbol id="i-phone-tap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3M9 9.5l2 2 4-4"/></g></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15L6 16.5Z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></g></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="8" width="17" height="4.5" rx="1"/><path d="M5 12.5v8h14v-8M12 8v12.5M12 8S10.6 3.5 8 3.5a2.2 2.2 0 0 0 0 4.5h4Zm0 0s1.4-4.5 4-4.5a2.2 2.2 0 0 1 0 4.5h-4Z"/></g></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.8 2.8 5.8 6.3.8-4.6 4.4 1.2 6.3L12 17l-5.7 3.1 1.2-6.3-4.6-4.4 6.3-.8L12 2.8Z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m15 5-7 7 7 7"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="i-zoom" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5M10.5 8v5M8 10.5h5"/></g></symbol>
+</svg>
+
+<a class="skip" href="#services">Перейти к услугам</a>
+
+<!-- 1. Шапка -->
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a class="logo" href="#top" aria-label="Борода и Ножницы — наверх">
+      <picture>
+        <source srcset="img/logo-mark.webp" type="image/webp">
+        <img class="logo__mark" src="img/logo-mark.png" width="45" height="56" alt="">
+      </picture>
+      <span class="logo__text">Борода <span>и</span> Ножницы</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Разделы сайта">
+      <ul class="nav__list">
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#masters">Мастера</a></li>
+        <li><a href="#promo">Акции</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#faq">Вопросы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <a class="btn btn--gold nav__cta" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">
+        <svg class="icon"><use href="#i-tg"/></svg>Записаться в Telegram
+      </a>
+      <a class="nav__phone" href="tel:+79001234567">+7 (900) 123-45-67</a>
+    </nav>
+
+    <a class="btn btn--gold btn--sm header__cta" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">Записаться</a>
+
+    <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- 2. Первый экран -->
+  <section class="hero" aria-labelledby="hero-title">
+    <picture class="hero__bg">
+      <source media="(max-width: 767px)" srcset="img/hero-mobile.webp" type="image/webp">
+      <source media="(max-width: 767px)" srcset="img/hero-mobile.jpg">
+      <source srcset="img/hero.webp" type="image/webp">
+      <img src="img/hero.jpg" width="1376" height="768" alt="" fetchpriority="high">
+    </picture>
+    <div class="container hero__content">
+      <p class="demo-badge">Демо-сайт для портфолио</p>
+      <p class="eyebrow">Барбершоп · Москва</p>
+      <h1 class="hero__title" id="hero-title">Мужские стрижки и&nbsp;бритьё</h1>
+      <p class="hero__lead">Запись за&nbsp;30&nbsp;секунд в&nbsp;Telegram — без звонков и&nbsp;ожидания. −20% на&nbsp;первый визит.</p>
+      <a class="btn btn--gold btn--lg" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">
+        <svg class="icon"><use href="#i-tg"/></svg>Записаться в Telegram
+      </a>
+      <p class="hero__meta">
+        <span><svg class="icon"><use href="#i-pin"/></svg>г. Москва, ул. Примерная, д. 12</span>
+        <span><svg class="icon"><use href="#i-clock"/></svg>Ежедневно 10:00–21:00</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. Услуги и цены -->
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Услуги и цены</p>
+        <h2 class="section__title" id="services-title">Что мы делаем</h2>
+        <p class="section__lead">Цена зависит от уровня мастера: <b>Барбер</b> — Илья и Денис, <b>Топ-барбер</b> — Артём.</p>
+      </div>
+
+      <div class="tabs reveal">
+        <div class="tabs__list" role="tablist" aria-label="Категории услуг">
+          <button class="tabs__tab" role="tab" id="tab-cuts" aria-controls="cat-cuts" aria-selected="true">Стрижки</button>
+          <button class="tabs__tab" role="tab" id="tab-beard" aria-controls="cat-beard" aria-selected="false" tabindex="-1">Борода и бритьё</button>
+          <button class="tabs__tab" role="tab" id="tab-combo" aria-controls="cat-combo" aria-selected="false" tabindex="-1">Комплексы</button>
+          <button class="tabs__tab" role="tab" id="tab-care" aria-controls="cat-care" aria-selected="false" tabindex="-1">Камуфляж и уход</button>
+          <button class="tabs__tab" role="tab" id="tab-extra" aria-controls="cat-extra" aria-selected="false" tabindex="-1">Доп. услуги</button>
+        </div>
+
+        <div class="price-head" aria-hidden="true">
+          <span>Услуга</span><span>Время</span><span>Барбер</span><span>Топ-барбер</span>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="cat-cuts" aria-labelledby="tab-cuts">
+          <h3 class="tabs__fallback">Стрижки</h3>
+          <ul class="svc-list">
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Мужская стрижка</h4><p class="svc__desc">Классика или фейд, мытьё головы и укладка.</p></div>
+              <span class="svc__time">1 ч</span>
+              <span class="svc__price" data-label="Барбер">1&nbsp;800&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">2&nbsp;400&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Стрижка машинкой</h4><p class="svc__desc">Одна-две насадки, аккуратная окантовка.</p></div>
+              <span class="svc__time">30 мин</span>
+              <span class="svc__price" data-label="Барбер">1&nbsp;000&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">1&nbsp;300&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Удлинённая стрижка</h4><p class="svc__desc">Для длины от 10 см: ножницы, текстура, укладка.</p></div>
+              <span class="svc__time">1 ч 15 мин</span>
+              <span class="svc__price" data-label="Барбер">2&nbsp;300&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">2&nbsp;900&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Детская стрижка (4–12 лет)</h4><p class="svc__desc">Спокойно и без слёз — с мультиками на планшете.</p></div>
+              <span class="svc__time">45 мин</span>
+              <span class="svc__price" data-label="Барбер">1&nbsp;400&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">1&nbsp;800&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Коррекция неудачной стрижки</h4><p class="svc__desc">Исправим форму после другого мастера.</p></div>
+              <span class="svc__time">1 ч</span>
+              <span class="svc__price" data-label="Барбер">2&nbsp;000&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">2&nbsp;600&nbsp;₽</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="cat-beard" aria-labelledby="tab-beard">
+          <h3 class="tabs__fallback">Борода и бритьё</h3>
+          <ul class="svc-list">
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Моделирование бороды</h4><p class="svc__desc">Форма, контуры, уход маслом.</p></div>
+              <span class="svc__time">30 мин</span>
+              <span class="svc__price" data-label="Барбер">1&nbsp;200&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">1&nbsp;500&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Бритьё головы опасной бритвой</h4><p class="svc__desc">Распаривание, бритьё, успокаивающий бальзам.</p></div>
+              <span class="svc__time">45 мин</span>
+              <span class="svc__price" data-label="Барбер">1&nbsp;500&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">1&nbsp;800&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Королевское бритьё</h4><p class="svc__desc">Горячее полотенце, опасная бритва, уход.</p></div>
+              <span class="svc__time">45 мин</span>
+              <span class="svc__price" data-label="Барбер">1&nbsp;600&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">2&nbsp;000&nbsp;₽</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="cat-combo" aria-labelledby="tab-combo">
+          <h3 class="tabs__fallback">Комплексы</h3>
+          <ul class="svc-list">
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Стрижка + борода</h4><p class="svc__desc">Мужская стрижка и моделирование бороды.</p></div>
+              <span class="svc__time">1 ч 30 мин</span>
+              <span class="svc__price" data-label="Барбер">2&nbsp;700&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">3&nbsp;500&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Отец + сын</h4><p class="svc__desc">Две стрижки подряд у одного мастера.</p></div>
+              <span class="svc__time">1 ч 45 мин</span>
+              <span class="svc__price" data-label="Барбер">3&nbsp;000&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">3&nbsp;900&nbsp;₽</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="cat-care" aria-labelledby="tab-care">
+          <h3 class="tabs__fallback">Камуфляж и уход</h3>
+          <ul class="svc-list">
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Камуфляж седины (голова)</h4><p class="svc__desc">Естественный тон, седина уходит на 60–80%.</p></div>
+              <span class="svc__time">30 мин</span>
+              <span class="svc__price svc__price--single" data-label="Любой мастер">1&nbsp;500&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Камуфляж бороды</h4><p class="svc__desc">Тонирование бороды под цвет волос.</p></div>
+              <span class="svc__time">30 мин</span>
+              <span class="svc__price svc__price--single" data-label="Любой мастер">1&nbsp;200&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Уход за лицом</h4><p class="svc__desc">Очищение, скраб, увлажняющая маска.</p></div>
+              <span class="svc__time">30 мин</span>
+              <span class="svc__price svc__price--single" data-label="Любой мастер">1&nbsp;200&nbsp;₽</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="cat-extra" aria-labelledby="tab-extra">
+          <h3 class="tabs__fallback">Доп. услуги</h3>
+          <ul class="svc-list">
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Окантовка</h4><p class="svc__desc">Освежить контуры между стрижками.</p></div>
+              <span class="svc__time">15 мин</span>
+              <span class="svc__price" data-label="Барбер">600&nbsp;₽</span>
+              <span class="svc__price svc__price--top" data-label="Топ-барбер">800&nbsp;₽</span>
+            </li>
+            <li class="svc">
+              <div class="svc__main"><h4 class="svc__name">Депиляция воском (нос/уши)</h4><p class="svc__desc">Быстро и почти не больно.</p></div>
+              <span class="svc__time">10 мин</span>
+              <span class="svc__price svc__price--single" data-label="Любой мастер">300&nbsp;₽</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section__cta reveal">
+        <a class="btn btn--outline" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">
+          <svg class="icon"><use href="#i-tg"/></svg>Выбрать услугу и время в боте
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Мастера -->
+  <section class="section section--alt" id="masters" aria-labelledby="masters-title">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Команда</p>
+        <h2 class="section__title" id="masters-title">Наши мастера</h2>
+      </div>
+
+      <div class="masters">
+        <article class="master reveal">
+          <picture class="master__photo">
+            <source srcset="img/master-artem.webp" type="image/webp">
+            <img src="img/master-artem.jpg" width="600" height="800" loading="lazy" decoding="async" alt="Мастер Артём в барбершопе">
+          </picture>
+          <div class="master__body">
+            <p class="master__level master__level--top">Топ-барбер</p>
+            <h3 class="master__name">Артём</h3>
+            <p class="master__about">Стаж 8 лет, фейды и классика, королевское бритьё.</p>
+            <p class="master__days-label">Работает: <b>Пн–Пт</b></p>
+            <ul class="days" aria-hidden="true"><li class="on">Пн</li><li class="on">Вт</li><li class="on">Ср</li><li class="on">Чт</li><li class="on">Пт</li><li>Сб</li><li>Вс</li></ul>
+            <a class="btn btn--outline btn--block" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">Записаться к мастеру</a>
+          </div>
+        </article>
+
+        <article class="master reveal">
+          <picture class="master__photo">
+            <source srcset="img/master-ilya.webp" type="image/webp">
+            <img src="img/master-ilya.jpg" width="600" height="800" loading="lazy" decoding="async" alt="Мастер Илья в барбершопе">
+          </picture>
+          <div class="master__body">
+            <p class="master__level">Барбер</p>
+            <h3 class="master__name">Илья</h3>
+            <p class="master__about">Стаж 3 года, короткие стрижки и бороды.</p>
+            <p class="master__days-label">Работает: <b>Вт–Сб</b></p>
+            <ul class="days" aria-hidden="true"><li>Пн</li><li class="on">Вт</li><li class="on">Ср</li><li class="on">Чт</li><li class="on">Пт</li><li class="on">Сб</li><li>Вс</li></ul>
+            <a class="btn btn--outline btn--block" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">Записаться к мастеру</a>
+          </div>
+        </article>
+
+        <article class="master reveal">
+          <picture class="master__photo">
+            <source srcset="img/master-denis.webp" type="image/webp">
+            <img src="img/master-denis.jpg" width="600" height="800" loading="lazy" decoding="async" alt="Мастер Денис в барбершопе">
+          </picture>
+          <div class="master__body">
+            <p class="master__level">Барбер</p>
+            <h3 class="master__name">Денис</h3>
+            <p class="master__about">Стаж 4 года, удлинённые стрижки, детские стрижки.</p>
+            <p class="master__days-label">Работает: <b>Ср–Вс</b></p>
+            <ul class="days" aria-hidden="true"><li>Пн</li><li>Вт</li><li class="on">Ср</li><li class="on">Чт</li><li class="on">Пт</li><li class="on">Сб</li><li class="on">Вс</li></ul>
+            <a class="btn btn--outline btn--block" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">Записаться к мастеру</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Почему к нам -->
+  <section class="section" id="why" aria-labelledby="why-title">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Почему к нам</p>
+        <h2 class="section__title" id="why-title">Удобно до&nbsp;и&nbsp;после стрижки</h2>
+      </div>
+      <ul class="features">
+        <li class="feature reveal">
+          <span class="feature__icon"><svg class="icon"><use href="#i-scissors"/></svg></span>
+          <h3 class="feature__title">Опытные мастера</h3>
+          <p>Стаж от 3 до 8 лет. Фейды, классика, бороды и королевское бритьё.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__icon"><svg class="icon"><use href="#i-phone-tap"/></svg></span>
+          <h3 class="feature__title">Запись онлайн 24/7</h3>
+          <p>В Telegram-боте: услуга, мастер и свободное время на 2 недели вперёд — без звонков.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__icon"><svg class="icon"><use href="#i-bell"/></svg></span>
+          <h3 class="feature__title">Напоминания о визите</h3>
+          <p>Бот напомнит за сутки и за 2 часа. Перенести или отменить запись можно там же.</p>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__icon"><svg class="icon"><use href="#i-gift"/></svg></span>
+          <h3 class="feature__title">Бонусы с каждого визита</h3>
+          <p>10% от суммы возвращаются бонусами: 1 бонус = 1 ₽.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. Галерея -->
+  <section class="section section--alt" id="works" aria-labelledby="works-title">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Галерея</p>
+        <h2 class="section__title" id="works-title">Наши работы</h2>
+      </div>
+      <ul class="gallery">
+        <li class="reveal"><button class="gallery__item" type="button" data-full="img/work-1" aria-label="Увеличить: фейд с текстурой">
+          <picture><source srcset="img/work-1-sm.webp" type="image/webp"><img src="img/work-1-sm.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Фейд с текстурой"></picture>
+          <svg class="icon gallery__zoom"><use href="#i-zoom"/></svg></button></li>
+        <li class="reveal"><button class="gallery__item" type="button" data-full="img/work-2" aria-label="Увеличить: классика с пробором">
+          <picture><source srcset="img/work-2-sm.webp" type="image/webp"><img src="img/work-2-sm.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Классическая стрижка с пробором"></picture>
+          <svg class="icon gallery__zoom"><use href="#i-zoom"/></svg></button></li>
+        <li class="reveal"><button class="gallery__item" type="button" data-full="img/work-3" aria-label="Увеличить: моделирование бороды">
+          <picture><source srcset="img/work-3-sm.webp" type="image/webp"><img src="img/work-3-sm.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Моделирование бороды"></picture>
+          <svg class="icon gallery__zoom"><use href="#i-zoom"/></svg></button></li>
+        <li class="reveal"><button class="gallery__item" type="button" data-full="img/work-4" aria-label="Увеличить: королевское бритьё">
+          <picture><source srcset="img/work-4-sm.webp" type="image/webp"><img src="img/work-4-sm.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Королевское бритьё опасной бритвой"></picture>
+          <svg class="icon gallery__zoom"><use href="#i-zoom"/></svg></button></li>
+        <li class="reveal"><button class="gallery__item" type="button" data-full="img/work-5" aria-label="Увеличить: зачёс назад">
+          <picture><source srcset="img/work-5-sm.webp" type="image/webp"><img src="img/work-5-sm.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Укладка с зачёсом назад"></picture>
+          <svg class="icon gallery__zoom"><use href="#i-zoom"/></svg></button></li>
+        <li class="reveal"><button class="gallery__item" type="button" data-full="img/work-6" aria-label="Увеличить: короткая стрижка и борода">
+          <picture><source srcset="img/work-6-sm.webp" type="image/webp"><img src="img/work-6-sm.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Короткая стрижка с окантовкой и борода"></picture>
+          <svg class="icon gallery__zoom"><use href="#i-zoom"/></svg></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. Акции -->
+  <section class="section" id="promo" aria-labelledby="promo-title">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Акции</p>
+        <h2 class="section__title" id="promo-title">Выгоднее с&nbsp;первого визита</h2>
+      </div>
+      <div class="promos">
+        <article class="promo reveal">
+          <p class="promo__value">−20%</p>
+          <h3 class="promo__title">на первый визит</h3>
+          <p>Скидка на первую запись через Telegram-бота — на любую услугу.</p>
+        </article>
+        <article class="promo reveal">
+          <p class="promo__value">10%</p>
+          <h3 class="promo__title">возвращаем бонусами</h3>
+          <p>После каждого визита начисляем бонусы — 10% от суммы. 1 бонус = 1 ₽, ими можно оплатить следующие визиты. Баланс виден в боте.</p>
+        </article>
+      </div>
+      <div class="section__cta reveal">
+        <a class="btn btn--gold" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">
+          <svg class="icon"><use href="#i-tg"/></svg>Записаться со скидкой
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Отзывы -->
+  <section class="section section--alt" id="reviews" aria-labelledby="reviews-title">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Отзывы</p>
+        <h2 class="section__title" id="reviews-title">Что говорят гости</h2>
+        <p class="section__note">Примеры отзывов (демо)</p>
+      </div>
+      <div class="reviews">
+        <figure class="review reveal">
+          <p class="stars" aria-label="Оценка 5 из 5"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></p>
+          <blockquote>Артём сделал фейд ровно как на фото, которое я показал. Записался через бота за минуту, напоминание пришло накануне — удобно.</blockquote>
+          <figcaption><b>Максим</b><span>Мужская стрижка · Артём</span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <p class="stars" aria-label="Оценка 5 из 5"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></p>
+          <blockquote>Ходим с сыном на «Отец + сын» к Денису. Сын спокойно сидит с мультиками, а мы оба выходим подстриженными за одно посещение.</blockquote>
+          <figcaption><b>Сергей К.</b><span>Отец + сын · Денис</span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <p class="stars" aria-label="Оценка 5 из 5"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></p>
+          <blockquote>Королевское бритьё — отдельное удовольствие: горячее полотенце, опасная бритва, бальзам. Вышел другим человеком.</blockquote>
+          <figcaption><b>Андрей</b><span>Королевское бритьё · Артём</span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <p class="stars" aria-label="Оценка 4 из 5"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon icon--off"><use href="#i-star"/></svg></p>
+          <blockquote>Илья отлично поправил бороду, форма держится. Минус звезда — в субботу вечером всё занято, записывайтесь заранее.</blockquote>
+          <figcaption><b>Тимур</b><span>Моделирование бороды · Илья</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Вопросы и ответы -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <p class="eyebrow">Вопросы и ответы</p>
+        <h2 class="section__title" id="faq-title">Частые вопросы</h2>
+      </div>
+      <div class="faq reveal">
+        <details class="faq__item">
+          <summary>Как можно оплатить?</summary>
+          <p>Картой, наличными или по СБП — на ваш выбор.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Что если я опаздываю?</summary>
+          <p>До 10 минут ждём. Если больше — может потребоваться перенос, чтобы не задерживать следующего гостя. Лучше позвоните нам: <a href="tel:+79001234567">+7 (900) 123-45-67</a>.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Есть ли парковка?</summary>
+          <p>Да, бесплатная городская парковка прямо у входа.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Можно прийти с ребёнком?</summary>
+          <p>Конечно! Стрижём детей от 4 лет, есть услуга «Отец + сын».</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Контакты -->
+  <section class="section section--alt" id="contacts" aria-labelledby="contacts-title">
+    <div class="container contacts">
+      <div class="contacts__info reveal">
+        <p class="eyebrow">Контакты</p>
+        <h2 class="section__title" id="contacts-title">Ждём вас</h2>
+        <ul class="contacts__list">
+          <li><svg class="icon"><use href="#i-pin"/></svg><div><small>Адрес</small>г. Москва, ул. Примерная, д. 12</div></li>
+          <li><svg class="icon"><use href="#i-clock"/></svg><div><small>Часы работы</small>Ежедневно 10:00–21:00</div></li>
+          <li><svg class="icon"><use href="#i-phone"/></svg><div><small>Телефон</small><a href="tel:+79001234567">+7 (900) 123-45-67</a></div></li>
+        </ul>
+        <div class="contacts__btns">
+          <a class="btn btn--gold" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener">
+            <svg class="icon"><use href="#i-tg"/></svg>Записаться в Telegram
+          </a>
+          <a class="btn btn--outline" href="tel:+79001234567"><svg class="icon"><use href="#i-phone"/></svg>Позвонить</a>
+        </div>
+      </div>
+
+      <div class="map reveal">
+        <svg class="map__svg" viewBox="0 0 600 420" role="img" aria-label="Схема проезда: ул. Примерная, д. 12">
+          <rect width="600" height="420" fill="#141412"/>
+          <path d="M-20 300 C 120 250, 210 330, 340 290 S 560 250, 640 300" fill="none" stroke="#1d2a30" stroke-width="34"/>
+          <g fill="#1b1a17">
+            <rect x="20" y="20" width="150" height="90" rx="6"/><rect x="200" y="20" width="110" height="90" rx="6"/>
+            <rect x="340" y="20" width="120" height="90" rx="6"/><rect x="490" y="20" width="100" height="90" rx="6"/>
+            <rect x="20" y="140" width="150" height="100" rx="6"/><rect x="200" y="140" width="110" height="100" rx="6"/>
+            <rect x="340" y="140" width="120" height="100" rx="6"/><rect x="490" y="140" width="100" height="100" rx="6"/>
+            <rect x="20" y="345" width="200" height="60" rx="6"/><rect x="380" y="340" width="210" height="65" rx="6"/>
+          </g>
+          <g stroke="#2a2925" stroke-width="12" stroke-linecap="round">
+            <path d="M0 125H600M185 0V260M325 0V260M475 0V260"/>
+          </g>
+          <text x="40" y="118" fill="#6f6a60" font-size="12" font-family="Manrope, sans-serif">ул. Примерная</text>
+          <text x="192" y="250" fill="#6f6a60" font-size="12" font-family="Manrope, sans-serif" transform="rotate(-90 192 250)">пер. Тихий</text>
+          <circle cx="325" cy="125" r="34" fill="#c9a85f" opacity=".12"/>
+          <path d="M325 128c-14-14-22-25-22-36a22 22 0 0 1 44 0c0 11-8 22-22 36Z" fill="#c9a85f"/>
+          <circle cx="325" cy="92" r="8" fill="#141412"/>
+        </svg>
+        <div class="map__label">
+          <b>ул. Примерная, д. 12</b>
+          <span>Вход с улицы, бесплатная парковка у входа</span>
+          <a href="https://yandex.ru/maps/213/moscow/" target="_blank" rel="noopener">Открыть в Яндекс Картах →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 11. Подвал -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a class="logo" href="#top" aria-label="Борода и Ножницы — наверх">
+      <picture>
+        <source srcset="img/logo-mark.webp" type="image/webp">
+        <img class="logo__mark" src="img/logo-mark.png" width="45" height="56" alt="" loading="lazy">
+      </picture>
+      <span class="logo__text">Борода <span>и</span> Ножницы</span>
+    </a>
+    <p class="footer__demo">Демо-сайт для портфолио. Барбершоп вымышленный.</p>
+    <p class="footer__links">
+      <a href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener"><svg class="icon"><use href="#i-tg"/></svg>@boroda_nozhnicy_demo_bot</a>
+    </p>
+    <p class="footer__copy">© 2026 Борода и Ножницы</p>
+  </div>
+</footer>
+
+<!-- Плавающая кнопка (телефон) -->
+<a class="btn btn--gold fab" href="https://t.me/boroda_nozhnicy_demo_bot?start=site" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+  <svg class="icon"><use href="#i-tg"/></svg>Записаться в Telegram
+</a>
+
+<!-- Увеличение фото -->
+<dialog class="lightbox" aria-label="Просмотр фото">
+  <figure class="lightbox__figure">
+    <picture><source type="image/webp"><img alt=""></picture>
+    <figcaption class="lightbox__caption"></figcaption>
+  </figure>
+  <button class="lightbox__btn lightbox__close" type="button" aria-label="Закрыть"><svg class="icon"><use href="#i-close"/></svg></button>
+  <button class="lightbox__btn lightbox__prev" type="button" aria-label="Предыдущее фото"><svg class="icon"><use href="#i-left"/></svg></button>
+  <button class="lightbox__btn lightbox__next" type="button" aria-label="Следующее фото"><svg class="icon"><use href="#i-right"/></svg></button>
+  <p class="lightbox__count" aria-live="polite"></p>
+</dialog>
+
+</body>
+</html>

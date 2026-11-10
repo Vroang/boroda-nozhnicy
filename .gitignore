@@ -1,0 +1,28 @@
+# Белый список: в репозиторий (и на GitHub Pages) попадает только то, что нужно сайту.
+# Всё остальное (исходные PNG, ТЗ, заметки, скрипты, служебные папки) остаётся локально.
+*
+!*/
+
+!.gitignore
+!.nojekyll
+!index.html
+!favicon.ico
+!site.webmanifest
+!README.md
+!deploy.bat
+
+!css/*.css
+!js/*.js
+!fonts/*.woff2
+
+!img/*.webp
+!img/*.jpg
+!img/logo-mark.png
+!img/favicon-32.png
+!img/apple-touch-icon.png
+!img/icon-192.png
+!img/icon-512.png
+
+# Служебное — никогда
+.claude/
+tools/
